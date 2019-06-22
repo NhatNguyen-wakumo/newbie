@@ -22,9 +22,9 @@ array = [1,2,3,4]
 array.map! { |n| n * n } 
 => [1, 4, 9, 16]
 ```
-_This is the way of using do ... end_
+_This is the way of using "do ... end"_
 
-### the keyword "yield"
+### The keyword "yield"
 _It use to delay the method calling to calculate the value of Block._
 ```
 def double(num)
