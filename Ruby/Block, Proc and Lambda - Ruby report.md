@@ -2,9 +2,13 @@
 ## Block
 _Block is easily to understand like a block of method that are put in curly bracket { } or do ... end._ 
 _We have a convention of using Block is:_
+
 _- Curly bracket { } is used for command line or a single block._
+
 _- do ... end is used for a multi-line._
+
 _- Block is not a object._
+
 ```
 array = [1,2,3,4]
 array.map! do |n|
