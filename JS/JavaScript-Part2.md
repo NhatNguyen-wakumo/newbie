@@ -26,6 +26,16 @@ a = a + 1
 console.log(a+c)
 ```
 ## The difference of double equals and triple equals
+_Triple equals:_
+_When using === javascript will compare in same variable like num vs num, String vs String and number must be the same when checking not num vs String._
+``` 
+7 === 7 #true
+7 ==='7' #false
 ```
-
+_Double equals:_
+_Using double equals, javascript just compare the value of variable not strictly checking the same of variable._
 ```
+7 == '7' #true
+```
+## console.log(0.1+0.2 === 0.3)
+_This must be false because triple equals just check only the same number even 0.1 + 0.2 = 0.3 is true._
