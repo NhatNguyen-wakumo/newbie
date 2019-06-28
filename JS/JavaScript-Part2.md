@@ -38,4 +38,4 @@ _Using double equals, javascript just compare the value of variable not strictly
 7 == '7' #true
 ```
 ## console.log(0.1+0.2 === 0.3)
-_This must be false because triple equals just check only the same number even 0.1 + 0.2 = 0.3 is true._
+_This must be false because triple equals just check only the same number even 0.1 + 0.2 is equal to 0.3 is true._
