@@ -16,23 +16,15 @@ _and one asterisk to present an italic word_
 ```
 *italic*
 ```
-#### Images 
-```
-![Fork Picture]
-Bootcamp-Fork.png
-```
+
 #### Make a task list
-```
+
 - [ ] This is a Ruby language
 - [x] This is a JavaScript language
-```
+
 ### Forking a project 
 #### Fork the repository
 _click the "Fork" button in the header of the repository._
-```
-![YoYo]
-https://www.google.com/search?q=anglam+yoyo&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjzhuuzh6XjAhXD3mEKHWdtCnMQ_AUIECgB&biw=1152&bih=592#imgrc=JuIfNe4CDm7YuM:
-``` 
 #### Clone your fork
 _To be able to work on the project, we will need to clone it to our computer._
 
