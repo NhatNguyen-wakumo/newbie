@@ -2,7 +2,7 @@
 ## FlexBox 
 _flex will define how your items are going to “fill” over the available space along your main axis. Space will be divided according to each element's flex property._
 ### Flex Direction
-```
+
 **row** Align children from left to right. If wrapping is enabled then the next line will start under the first item on the left of the container.
 
 **column** (default value) Align children from top to bottom. If wrapping is enabled then the next line will start to the left first item on the top of the container.
@@ -10,7 +10,6 @@ _flex will define how your items are going to “fill” over the available spac
 **row-reverse** Align children from right to left. If wrapping is enabled then the next line will start under the first item on the right of the container.
 
 **column-reverse** Align children from bottom to top. If wrapping is enabled then the next line will start to the left first item on the bottom of the container.
-```
 _Example:_
 ```
 import React, { Component } from 'react';
@@ -31,13 +30,13 @@ return (
 
 ```
 ### Layout Direction
-```
+
 **LTR** (default value) Text and children and laid out from left to right. Margin and padding applied the start of an element are applied on the left side.
 
 **RTL** Text and children and laid out from right to left. Margin and padding applied the start of an element are applied on the right side.
-```
+
 ### Align Items
-```
+
 **stretch** (default value) Stretch children of a container to match the height of the container's cross axis.
 
 **flex-start** Align children of a container to the start of the container's cross axis.
@@ -47,7 +46,7 @@ return (
 **center** Align children of a container in the center of the container's cross axis.
 
 **baseline** Align children of a container along a common baseline. Individual children can be set to be the reference baseline for their parents.
-```
+
 ```
 import React, { Component } from 'react';
 import { View } from 'react-native';
@@ -74,7 +73,7 @@ alignItems: 'stretch',
 
 ```
 ### Align Content
-```
+
 **flex-start** (default value) Align wrapped lines to the start of the container's cross axis.
 
 **flex-end** Align wrapped lines to the end of the container's cross axis.
@@ -86,12 +85,12 @@ alignItems: 'stretch',
 **space-between** Evenly space wrapped lines across the container's main axis, distributing remaining space between the lines.
 
 **space-around** Evenly space wrapped lines across the container's main axis, distributing remaining space around the lines. Compared to space between using space around will result in space being distributed to the begining of the first lines and end of the last line.
-```
+
 ## Animations
 ### Animated API
-```
+
 **Animated** exports six animatable component types: **View**, **Text**, **Image**, **ScrollView**, **FlatList** and **SectionList**, but you can also create your own using **Animated.createAnimatedComponent()**.
-```
+
 ```
 import React from 'react';
 import { Animated, Text, View } from 'react-native';
